@@ -19,7 +19,7 @@ def getwhe(city):
     url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {'APPID':whether_Key,'q':city,'units':'imperial'}
     response = requests.get(url,params=params)
-    # print(response.json())
+    print(response.json())
     wjson = response.json()
 
     showlabel['text'] = formatjson(wjson)
