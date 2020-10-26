@@ -1,9 +1,8 @@
 import tkinter as tk
-#importing UI library
 import requests
 
 def init():
-    print('Application running successfully.........')
+    print('Application running successfully.')
 
 def testfun(city):
     print('Entered keyword : ',city)
